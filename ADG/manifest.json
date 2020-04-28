@@ -1,0 +1,13 @@
+{
+    "name": "ADG",
+    "version": "1.0",
+    "description": "no fingerprints",
+    "permissions": ["storage", "webNavigation", "webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["inject/agents.js", "background.js"],
+        "persistent": true
+    },
+    "manifest_version": 2
+
+
+}
